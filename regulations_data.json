@@ -1,0 +1,418 @@
+{
+  "R11.03": {
+    "full_name": "关于车辆门锁和车门保持件认证的统一规定",
+    "english_name": "Door Latches and Door Retention Components",
+    "version": "03系列修正案",
+    "applicable_vehicles": "M1类（乘用车）和 N1类（轻型商用车）",
+    "effective_date": "2010年3月17日",
+    "key_components": [
+      "门锁：装设于车门内部，与车身侧的锁栓啮合实现闭合",
+      "门保持件：承受载荷并提供打开前的阻力",
+      "门铰链：支持车门的旋转开闭动作",
+      "滑动门系统：适用于滑动式侧门"
+    ],
+    "technical_requirements": [
+      "具备足够的机械强度和闭合保持能力",
+      "在受到外力冲击时防止非预期松脱",
+      "能够承受规定的拉力、剪切力和冲击载荷",
+      "具备防止意外开启的装置"
+    ],
+    "test_methods": [
+      "静态测试：验证门锁在持续载荷下的强度",
+      "动态测试：模拟碰撞工况下的门锁性能",
+      "惯性测试：评估门锁在惯性力作用下的保持能力",
+      "耐久性测试：经过大量开关循环验证可靠性"
+    ],
+    "significance": "全球50多个国家和地区作为车辆型式批准的重要依据，属于被动安全法规"
+  },
+  "R11.04": {
+    "full_name": "关于车辆门锁和车门保持件认证的统一规定",
+    "english_name": "Door Latches and Door Retention Components",
+    "version": "04系列修正案",
+    "applicable_vehicles": "M1类（乘用车）和 N1类（轻型商用车）",
+    "effective_date": "最新版本",
+    "key_components": [
+      "门锁：装设于车门内部，与车身侧的锁栓啮合实现闭合",
+      "门保持件：承受载荷并提供打开前的阻力",
+      "门铰链：支持车门的旋转开闭动作",
+      "滑动门系统：适用于滑动式侧门"
+    ],
+    "technical_requirements": [
+      "具备足够的机械强度和闭合保持能力",
+      "在受到外力冲击时防止非预期松脱",
+      "能够承受规定的拉力、剪切力和冲击载荷",
+      "具备防止意外开启的装置"
+    ],
+    "test_methods": [
+      "静态测试：验证门锁在持续载荷下的强度",
+      "动态测试：模拟碰撞工况下的门锁性能",
+      "惯性测试：评估门锁在惯性力作用下的保持能力",
+      "耐久性测试：经过大量开关循环验证可靠性"
+    ],
+    "significance": "全球50多个国家和地区作为车辆型式批准的重要依据，属于被动安全法规"
+  },
+  "R12.04": {
+    "full_name": "关于在发生碰撞时保护驾驶员免受转向机构影响的车辆认证的统一规定",
+    "english_name": "Protection of the Driver Against the Steering Mechanism in the Event of Impact",
+    "version": "04系列修正案",
+    "applicable_vehicles": "M1类（乘用车）和 N1类（轻型商用车，质量不超过1500kg）",
+    "effective_date": "现行有效",
+    "key_components": [
+      "转向盘：驾驶员操作的转向控制装置",
+      "转向柱：连接转向盘与转向器的部件",
+      "转向轴与齿轮：传递转向力的机构",
+      "能量吸收组件：碰撞时吸收冲击能量的装置"
+    ],
+    "technical_requirements": [
+      "转向机构要有足够的扭转刚度",
+      "避免方向盘在撞击时变成'铁棍'",
+      "碰撞时释放过多能量导致驾驶员受伤",
+      "转向柱需具备能量吸收功能"
+    ],
+    "test_methods": [
+      "正面碰撞试验：车辆按指定速度正撞试验壁",
+      "躯干块测试：模拟驾驶员位置和受力情况",
+      "头部参考模型测试：采集头部受力分布",
+      "能量传递测试：测量转向机构变形行为"
+    ],
+    "significance": "1958年协议体系中专注于被动安全的关键法规之一"
+  },
+  "R13H.01": {
+    "full_name": "关于乘用车制动系统认证的统一规定（欧美日协调版）",
+    "english_name": "Braking of Passenger Cars",
+    "version": "01系列修正案",
+    "applicable_vehicles": "M1类（乘用车）",
+    "effective_date": "2010年3月17日",
+    "key_components": [
+      "行车制动系统：主制动装置",
+      "驻车制动系统：停车时使用的制动装置",
+      "应急制动系统：行车制动失效时的备用制动",
+      "电子传输制动系统（ETBS）：线控制动技术"
+    ],
+    "technical_requirements": [
+      "制动系统应满足规定的制动效能",
+      "配备ABS防抱死制动系统",
+      "具备制动力分配功能",
+      "满足热衰退性能要求"
+    ],
+    "test_methods": [
+      "制动效能测试：测量制动距离和减速度",
+      "ABS性能测试：验证防抱死功能",
+      "热衰退测试：连续制动后的性能",
+      "应急制动测试：行车制动失效时的制动能力"
+    ],
+    "significance": "欧美日协调版制动法规，国际互认度高"
+  },
+  "R139.00": {
+    "full_name": "关于批准车辆电子稳定性控制系统的统一规定",
+    "english_name": "Electronic Stability Control (ESC)",
+    "version": "00系列修正案",
+    "applicable_vehicles": "M1类、N1类车辆",
+    "effective_date": "现行有效",
+    "key_components": [
+      "转向角度传感器：检测转向输入",
+      "加速度传感器：测量车辆加速度",
+      "横摆角速度传感器：检测车辆旋转",
+      "电子控制单元（ECU）：处理数据并控制执行器"
+    ],
+    "technical_requirements": [
+      "能够纠正车辆转向不足或过度状态",
+      "通过独立制动车轮保持侧向稳定性",
+      "调整发动机动力输出",
+      "在150毫秒内完成动态调控"
+    ],
+    "test_methods": [
+      "转角缓增转向（SIS）试验",
+      "正弦-停顿转向（SWD）试验",
+      "稳态回转试验",
+      "双移线试验"
+    ],
+    "significance": "能降低35%单车事故率与49%SUV翻车风险"
+  },
+  "R140.00": {
+    "full_name": "关于批准车辆轮胎压力监测系统的统一规定",
+    "english_name": "Tire Pressure Monitoring System (TPMS)",
+    "version": "00系列修正案",
+    "applicable_vehicles": "M1类、N1类车辆",
+    "effective_date": "现行有效",
+    "key_components": [
+      "胎压传感器：安装在轮胎内测量压力和温度",
+      "胎压接收控制器：接收传感器信号",
+      "显示单元：向驾驶员显示胎压信息",
+      "报警系统：欠压、漏气时发出警报"
+    ],
+    "technical_requirements": [
+      "实时监测轮胎气压和温度",
+      "欠压报警：气压≤推荐值75%时报警",
+      "快速漏气报警：检测到快速漏气时报警",
+      "高温报警：轮胎温度过高时报警"
+    ],
+    "test_methods": [
+      "欠压报警测试：验证报警阈值",
+      "快速漏气测试：验证漏气检测能力",
+      "温度测试：验证高温报警功能",
+      "电池电量测试：验证低电量报警"
+    ],
+    "significance": "有效预防因胎压异常引发的爆胎事故"
+  },
+  "R14.07": {
+    "full_name": "关于安全带固定点、ISOFIX固定系统和ISOFIX上拉带固定点方面批准车辆的统一规定",
+    "english_name": "Safety-Belt Anchorages, ISOFIX Anchorages Systems and ISOFIX Top Tether Anchorages",
+    "version": "07系列修正案",
+    "applicable_vehicles": "M类、N类车辆",
+    "effective_date": "现行有效",
+    "key_components": [
+      "安全带固定点：安装安全带的基础位置",
+      "ISOFIX固定系统：儿童座椅下固定器",
+      "ISOFIX上拉带固定点：儿童座椅顶部固定点",
+      "有效安全带固定点：确定安全带角度的参考点"
+    ],
+    "technical_requirements": [
+      "前排安全带固定点需承受13.5kN载荷",
+      "固定点位置需满足规定角度要求",
+      "ISOFIX固定点需具备足够强度",
+      "固定点不得在碰撞时松脱或变形"
+    ],
+    "test_methods": [
+      "静态强度试验：施加规定载荷验证强度",
+      "动态测试：模拟碰撞工况",
+      "位置测量：验证固定点位置符合要求",
+      "耐久性测试：验证长期使用可靠性"
+    ],
+    "significance": "安全带和儿童约束系统有效约束乘员的基础"
+  },
+  "R14.08": {
+    "full_name": "关于安全带固定点、ISOFIX固定系统和ISOFIX上拉带固定点方面批准车辆的统一规定",
+    "english_name": "Safety-Belt Anchorages, ISOFIX Anchorages Systems and ISOFIX Top Tether Anchorages",
+    "version": "08系列修正案",
+    "applicable_vehicles": "M类、N类车辆",
+    "effective_date": "最新版本",
+    "key_components": [
+      "安全带固定点：安装安全带的基础位置",
+      "ISOFIX固定系统：儿童座椅下固定器",
+      "ISOFIX上拉带固定点：儿童座椅顶部固定点",
+      "有效安全带固定点：确定安全带角度的参考点"
+    ],
+    "technical_requirements": [
+      "前排安全带固定点需承受13.5kN载荷",
+      "固定点位置需满足规定角度要求",
+      "ISOFIX固定点需具备足够强度",
+      "固定点不得在碰撞时松脱或变形"
+    ],
+    "test_methods": [
+      "静态强度试验：施加规定载荷验证强度",
+      "动态测试：模拟碰撞工况",
+      "位置测量：验证固定点位置符合要求",
+      "耐久性测试：验证长期使用可靠性"
+    ],
+    "significance": "安全带和儿童约束系统有效约束乘员的基础"
+  },
+  "R14.09": {
+    "full_name": "关于安全带固定点、ISOFIX固定系统和ISOFIX上拉带固定点方面批准车辆的统一规定",
+    "english_name": "Safety-Belt Anchorages, ISOFIX Anchorages Systems and ISOFIX Top Tether Anchorages",
+    "version": "09系列修正案",
+    "applicable_vehicles": "M类、N类车辆",
+    "effective_date": "最新版本",
+    "key_components": [
+      "安全带固定点：安装安全带的基础位置",
+      "ISOFIX固定系统：儿童座椅下固定器",
+      "ISOFIX上拉带固定点：儿童座椅顶部固定点",
+      "有效安全带固定点：确定安全带角度的参考点"
+    ],
+    "technical_requirements": [
+      "前排安全带固定点需承受13.5kN载荷",
+      "固定点位置需满足规定角度要求",
+      "ISOFIX固定点需具备足够强度",
+      "固定点不得在碰撞时松脱或变形"
+    ],
+    "test_methods": [
+      "静态强度试验：施加规定载荷验证强度",
+      "动态测试：模拟碰撞工况",
+      "位置测量：验证固定点位置符合要求",
+      "耐久性测试：验证长期使用可靠性"
+    ],
+    "significance": "安全带和儿童约束系统有效约束乘员的基础"
+  },
+  "R16.06": {
+    "full_name": "关于机动车辆安全带、约束系统、儿童约束系统及ISOFIX儿童约束系统的统一规定",
+    "english_name": "Safety-Belts and Restraint Systems",
+    "version": "06系列修正案",
+    "applicable_vehicles": "M类、N类、O类、L2、L4-L7、T1类车辆",
+    "effective_date": "现行有效",
+    "key_components": [
+      "安全带：三点式（A类）、两点式（B类）、特殊类型（S类）",
+      "卷收器：紧急锁定卷收器（类型4）",
+      "ISOFIX系统：儿童约束系统刚性连接装置",
+      "安全带提醒装置：两级警告系统"
+    ],
+    "technical_requirements": [
+      "织带强度：常温下断裂负荷≥1470 daN",
+      "卷收器耐久性：通过5000-45000次收放循环",
+      "能量吸收装置：碰撞时吸收冲击能量",
+      "安全带提醒：M1类车辆驾驶位强制要求"
+    ],
+    "test_methods": [
+      "织带强度测试：常温及特殊条件测试",
+      "卷收器耐久性测试：循环收放试验",
+      "动态碰撞测试：模拟碰撞工况",
+      "粉尘和腐蚀测试：环境耐久性试验"
+    ],
+    "significance": "提升车辆乘员安全的核心法规"
+  },
+  "R16.07": {
+    "full_name": "关于机动车辆安全带、约束系统、儿童约束系统及ISOFIX儿童约束系统的统一规定",
+    "english_name": "Safety-Belts and Restraint Systems",
+    "version": "07系列修正案",
+    "applicable_vehicles": "M类、N类车辆",
+    "effective_date": "2019年9月1日",
+    "key_components": [
+      "安全带：三点式（A类）、两点式（B类）、特殊类型（S类）",
+      "卷收器：紧急锁定卷收器（类型4）",
+      "ISOFIX系统：儿童约束系统刚性连接装置",
+      "安全带提醒装置：两级警告系统"
+    ],
+    "technical_requirements": [
+      "织带强度：常温下断裂负荷≥1470 daN",
+      "卷收器耐久性：通过5000-45000次收放循环",
+      "能量吸收装置：碰撞时吸收冲击能量",
+      "安全带提醒：扩展至M、N类车辆前排座椅"
+    ],
+    "test_methods": [
+      "织带强度测试：常温及特殊条件测试",
+      "卷收器耐久性测试：循环收放试验",
+      "动态碰撞测试：模拟碰撞工况",
+      "粉尘和腐蚀测试：环境耐久性试验"
+    ],
+    "significance": "07版新增M1/N1类车辆后排座椅未系提醒要求"
+  },
+  "R16.08": {
+    "full_name": "关于机动车辆安全带、约束系统、儿童约束系统及ISOFIX儿童约束系统的统一规定",
+    "english_name": "Safety-Belts and Restraint Systems",
+    "version": "08系列修正案",
+    "applicable_vehicles": "M类、N类车辆",
+    "effective_date": "最新版本",
+    "key_components": [
+      "安全带：三点式（A类）、两点式（B类）、特殊类型（S类）",
+      "卷收器：紧急锁定卷收器（类型4）",
+      "ISOFIX系统：儿童约束系统刚性连接装置",
+      "安全带提醒装置：两级警告系统"
+    ],
+    "technical_requirements": [
+      "织带强度：常温下断裂负荷≥1470 daN",
+      "卷收器耐久性：通过5000-45000次收放循环",
+      "能量吸收装置：碰撞时吸收冲击能量",
+      "安全带提醒：全车座椅未系提醒要求"
+    ],
+    "test_methods": [
+      "织带强度测试：常温及特殊条件测试",
+      "卷收器耐久性测试：循环收放试验",
+      "动态碰撞测试：模拟碰撞工况",
+      "粉尘和腐蚀测试：环境耐久性试验"
+    ],
+    "significance": "最新版本，安全带提醒装置要求更严格"
+  },
+  "R17.08": {
+    "full_name": "关于座椅、座椅固定点和头枕方面批准车辆的统一规定",
+    "english_name": "Seats, Their Anchorages and Head Restraints",
+    "version": "08系列修正案",
+    "applicable_vehicles": "M类、N类车辆",
+    "effective_date": "2009年7月22日",
+    "key_components": [
+      "座椅：乘员乘坐的装置",
+      "座椅固定点：座椅与车身的连接点",
+      "头枕：限制头部后移的装置",
+      "座椅调节机构：调整座椅位置的装置"
+    ],
+    "technical_requirements": [
+      "座椅需具备足够的强度和刚度",
+      "座椅固定点需承受规定载荷",
+      "头枕高度和宽度需满足要求",
+      "座椅靠背需具备能量吸收能力"
+    ],
+    "test_methods": [
+      "静态强度测试：施加规定载荷验证强度",
+      "动态测试：模拟碰撞工况",
+      "头枕尺寸测量：验证高度和宽度",
+      "能量吸收测试：验证靠背吸能性能"
+    ],
+    "significance": "确保座椅在碰撞时保护乘员安全"
+  },
+  "R17.09": {
+    "full_name": "关于座椅、座椅固定点和头枕方面批准车辆的统一规定",
+    "english_name": "Seats, Their Anchorages and Head Restraints",
+    "version": "09系列修正案",
+    "applicable_vehicles": "M类、N类车辆",
+    "effective_date": "现行有效",
+    "key_components": [
+      "座椅：乘员乘坐的装置",
+      "座椅固定点：座椅与车身的连接点",
+      "头枕：限制头部后移的装置",
+      "座椅调节机构：调整座椅位置的装置"
+    ],
+    "technical_requirements": [
+      "座椅需具备足够的强度和刚度",
+      "座椅固定点需承受规定载荷",
+      "头枕高度和宽度需满足要求",
+      "座椅靠背需具备能量吸收能力"
+    ],
+    "test_methods": [
+      "静态强度测试：施加规定载荷验证强度",
+      "动态测试：模拟碰撞工况",
+      "头枕尺寸测量：验证高度和宽度",
+      "能量吸收测试：验证靠背吸能性能"
+    ],
+    "significance": "确保座椅在碰撞时保护乘员安全"
+  },
+  "R17.10": {
+    "full_name": "关于座椅、座椅固定点和头枕方面批准车辆的统一规定",
+    "english_name": "Seats, Their Anchorages and Head Restraints",
+    "version": "10系列修正案",
+    "applicable_vehicles": "M类、N类车辆",
+    "effective_date": "最新版本",
+    "key_components": [
+      "座椅：乘员乘坐的装置",
+      "座椅固定点：座椅与车身的连接点",
+      "头枕：限制头部后移的装置",
+      "座椅调节机构：调整座椅位置的装置"
+    ],
+    "technical_requirements": [
+      "座椅需具备足够的强度和刚度",
+      "座椅固定点需承受规定载荷",
+      "头枕高度和宽度需满足要求",
+      "座椅靠背需具备能量吸收能力"
+    ],
+    "test_methods": [
+      "静态强度测试：施加规定载荷验证强度",
+      "动态测试：模拟碰撞工况",
+      "头枕尺寸测量：验证高度和宽度",
+      "能量吸收测试：验证靠背吸能性能"
+    ],
+    "significance": "最新版本，进一步提升座椅及头枕保护性能"
+  },
+  "R21.01": {
+    "full_name": "关于车辆内部安装件认证的统一规定",
+    "english_name": "Interior Fittings",
+    "version": "01系列修正案",
+    "applicable_vehicles": "M1类车辆",
+    "effective_date": "现行有效",
+    "key_components": [
+      "仪表板：驾驶员前方的控制面板",
+      "车内把手：乘员抓握的装置",
+      "座椅靠背：座椅的后部结构",
+      "车窗操作系统：电动车窗控制装置"
+    ],
+    "technical_requirements": [
+      "内部凸出物不得有尖锐边缘",
+      "仪表板需具备能量吸收能力",
+      "头部撞击测试需满足要求",
+      "车窗需具备防夹功能"
+    ],
+    "test_methods": [
+      "头部模型撞击测试：验证能量吸收",
+      "凸出物测试：测量凸出高度",
+      "边缘半径测量：验证无尖锐边缘",
+      "车窗防夹测试：验证防夹功能"
+    ],
+    "significance": "确保车内各部件在碰撞时不伤害乘员"
+  }
+}

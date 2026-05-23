@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UN ECE 汽车法规汇总</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 36px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 16px;
+            opacity: 0.9;
+        }
+        
+        .content {
+            padding: 30px;
+        }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .stat-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        
+        .stat-card h3 {
+            font-size: 32px;
+            margin-bottom: 5px;
+        }
+        
+        .stat-card p {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+        
+        .regulation-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 20px;
+        }
+        
+        .regulation-card {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 20px;
+            border-left: 4px solid #667eea;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .regulation-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        
+        .regulation-card h3 {
+            color: #1e3c72;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        
+        .regulation-card .full-name {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+        
+        .regulation-card .meta {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 15px;
+            font-size: 13px;
+            color: #888;
+        }
+        
+        .regulation-card .links {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        
+        .regulation-card a {
+            display: inline-block;
+            padding: 8px 16px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-size: 14px;
+            transition: background 0.2s;
+        }
+        
+        .regulation-card .html-link {
+            background: #667eea;
+            color: white;
+        }
+        
+        .regulation-card .html-link:hover {
+            background: #5568d3;
+        }
+        
+        .regulation-card .docx-link {
+            background: #28a745;
+            color: white;
+        }
+        
+        .regulation-card .docx-link:hover {
+            background: #218838;
+        }
+        
+        .regulation-card .full-link {
+            background: #dc3545;
+            color: white;
+        }
+        
+        .regulation-card .full-link:hover {
+            background: #c82333;
+        }
+        
+        .footer {
+            background: #f8f9fa;
+            padding: 20px 30px;
+            text-align: center;
+            border-top: 1px solid #e9ecef;
+            color: #666;
+            font-size: 14px;
+        }
+        
+        .note {
+            background: #fff3cd;
+            border: 1px solid #ffc107;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+            color: #856404;
+        }
+        
+        .note strong {
+            color: #dc3545;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>UN ECE 汽车法规汇总</h1>
+            <p>联合国欧洲经济委员会汽车法规 HTML 和 Word 文档集合</p>
+        </div>
+        
+        <div class="content">
+            <div class="stats">
+                <div class="stat-card">
+                    <h3>16</h3>
+                    <p>法规数量</p>
+                </div>
+                <div class="stat-card">
+                    <h3>48</h3>
+                    <p>文档总数</p>
+                </div>
+                <div class="stat-card">
+                    <h3>16</h3>
+                    <p>HTML介绍</p>
+                </div>
+                <div class="stat-card">
+                    <h3>16</h3>
+                    <p>全文翻译Word</p>
+                </div>
+            </div>
+            
+            <div class="note">
+                <strong>文档说明：</strong><br>
+                • <strong>HTML介绍</strong>：法规概述页面，包含基本信息、核心内容、技术要求摘要<br>
+                • <strong>Word摘要</strong>：中文摘要文档，适合快速了解法规要点<br>
+                • <strong style="color: #dc3545;">全文翻译Word</strong>：法规原文完整翻译，包含所有章节和附录，适合深入研究和技术应用
+            </div>
+            
+            <div class="regulation-grid">
+                <div class="regulation-card">
+                    <h3>UN ECE R11.03</h3>
+                    <div class="full-name">关于车辆门锁和车门保持件认证的统一规定</div>
+                    <div class="meta">
+                        <span>版本：03系列修正案</span>
+                        <span>车辆：M1类</span>
+                    </div>
+                    <div class="links">
+                        <a href="R11_03.html" class="html-link">HTML介绍</a>
+                        <a href="R11_03.docx" class="docx-link">Word摘要</a>
+                        <a href="R11_03_full.docx" class="full-link">全文翻译</a>
+                    </div>
+                </div>
+                <div class="regulation-card">
+                    <h3>UN ECE R11.04</h3>
+                    <div class="full-name">关于车辆门锁和车门保持件认证的统一规定</div>
+                    <div class="meta">
+                        <span>版本：04系列修正案</span>
+                        <span>车辆：M1类</span>
+                    </div>
+                    <div class="links">
+                        <a href="R11_04.html" class="html-link">HTML介绍</a>
+                        <a href="R11_04.docx" class="docx-link">Word摘要</a>
+                        <a href="R11_04_full.docx" class="full-link">全文翻译</a>
+                    </div>
+                </div>
+                <div class="regulation-card">
+                    <h3>UN ECE R12.04</h3>
+                    <div class="full-name">关于在发生碰撞时保护驾驶员免受转向机构影响的车辆认证的统一规定</div>
+                    <div class="meta">
+                        <span>版本：04系列修正案</span>
+                        <span>车辆：M1类</span>
+                    </div>
+                    <div class="links">
+                        <a href="R12_04.html" class="html-link">HTML介绍</a>
+                        <a href="R12_04.docx" class="docx-link">Word摘要</a>
+                        <a href="R12_04_full.docx" class="full-link">全文翻译</a>
+                    </div>
+                </div>
+                <div class="regulation-card">
+                    <h3>UN ECE R13H.01</h3>
+                    <div class="full-name">关于乘用车制动系统认证的统一规定（欧美日协调版）</div>
+                    <div class="meta">
+                        <span>版本：01系列修正案</span>
+                        <span>车辆：M1类</span>
+                    </div>
+                    <div class="links">
+                        <a href="R13H_01.html" class="html-link">HTML介绍</a>
+                        <a href="R13H_01.docx" class="docx-link">Word摘要</a>
+                        <a href="R13H_01_full.docx" class="full-link">全文翻译</a>
+                    </div>
+                </div>
+                <div class="regulation-card">
+                    <h3>UN ECE R139.00</h3>
+                    <div class="full-name">关于批准车辆电子稳定性控制系统的统一规定</div>
+                    <div class="meta">
+                        <span>版本：00系列修正案</span>
+                        <span>车辆：M1类</span>
+                    </div>
+                    <div class="links">
+                        <a href="R139_00.html" class="html-link">HTML介绍</a>
+                        <a href="R139_00.docx" class="docx-link">Word摘要</a>
+                        <a href="R139_00_full.docx" class="full-link">全文翻译</a>
+                    </div>
+                </div>
+                <div class="regulation-card">
+                    <h3>UN ECE R140.00</h3>
+                    <div class="full-name">关于批准车辆轮胎压力监测系统的统一规定</div>
+                    <div class="meta">
+                        <span>版本：00系列修正案</span>
+                        <span>车辆：M1类</span>
+                    </div>
+                    <div class="links">
+                        <a href="R140_00.html" class="html-link">HTML介绍</a>
+                        <a href="R140_00.docx" class="docx-link">Word摘要</a>
+                        <a href="R140_00_full.docx" class="full-link">全文翻译</a>
+                    </div>
+                </div>
+                <div class="regulation-card">
+                    <h3>UN ECE R14.07</h3>
+                    <div class="full-name">关于安全带固定点、ISOFIX固定系统和ISOFIX上拉带固定点方面批准车辆的统一规定</div>
+                    <div class="meta">
+                        <span>版本：07系列修正案</span>
+                        <span>车辆：M类</span>
+                    </div>
+                    <div class="links">
+                        <a href="R14_07.html" class="html-link">HTML介绍</a>
+                        <a href="R14_07.docx" class="docx-link">Word摘要</a>
+                        <a href="R14_07_full.docx" class="full-link">全文翻译</a>
+                    </div>
+                </div>
+                <div class="regulation-card">
+                    <h3>UN ECE R14.08</h3>
+                    <div class="full-name">关于安全带固定点、ISOFIX固定系统和ISOFIX上拉带固定点方面批准车辆的统一规定</div>
+                    <div class="meta">
+                        <span>版本：08系列修正案</span>
+                        <span>车辆：M类</span>
+                    </div>
+                    <div class="links">
+                        <a href="R14_08.html" class="html-link">HTML介绍</a>
+                        <a href="R14_08.docx" class="docx-link">Word摘要</a>
+                        <a href="R14_08_full.docx" class="full-link">全文翻译</a>
+                    </div>
+                </div>
+                <div class="regulation-card">
+                    <h3>UN ECE R14.09</h3>
+                    <div class="full-name">关于安全带固定点、ISOFIX固定系统和ISOFIX上拉带固定点方面批准车辆的统一规定</div>
+                    <div class="meta">
+                        <span>版本：09系列修正案</span>
+                        <span>车辆：M类</span>
+                    </div>
+                    <div class="links">
+                        <a href="R14_09.html" class="html-link">HTML介绍</a>
+                        <a href="R14_09.docx" class="docx-link">Word摘要</a>
+                        <a href="R14_09_full.docx" class="full-link">全文翻译</a>
+                    </div>
+                </div>
+                <div class="regulation-card">
+                    <h3>UN ECE R16.06</h3>
+                    <div class="full-name">关于机动车辆安全带、约束系统、儿童约束系统及ISOFIX儿童约束系统的统一规定</div>
+                    <div class="meta">
+                        <span>版本：06系列修正案</span>
+                        <span>车辆：M类</span>
+                    </div>
+                    <div class="links">
+                        <a href="R16_06.html" class="html-link">HTML介绍</a>
+                        <a href="R16_06.docx" class="docx-link">Word摘要</a>
+                        <a href="R16_06_full.docx" class="full-link">全文翻译</a>
+                    </div>
+                </div>
+                <div class="regulation-card">
+                    <h3>UN ECE R16.07</h3>
+                    <div class="full-name">关于机动车辆安全带、约束系统、儿童约束系统及ISOFIX儿童约束系统的统一规定</div>
+                    <div class="meta">
+                        <span>版本：07系列修正案</span>
+                        <span>车辆：M类</span>
+                    </div>
+                    <div class="links">
+                        <a href="R16_07.html" class="html-link">HTML介绍</a>
+                        <a href="R16_07.docx" class="docx-link">Word摘要</a>
+                        <a href="R16_07_full.docx" class="full-link">全文翻译</a>
+                    </div>
+                </div>
+                <div class="regulation-card">
+                    <h3>UN ECE R16.08</h3>
+                    <div class="full-name">关于机动车辆安全带、约束系统、儿童约束系统及ISOFIX儿童约束系统的统一规定</div>
+                    <div class="meta">
+                        <span>版本：08系列修正案</span>
+                        <span>车辆：M类</span>
+                    </div>
+                    <div class="links">
+                        <a href="R16_08.html" class="html-link">HTML介绍</a>
+                        <a href="R16_08.docx" class="docx-link">Word摘要</a>
+                        <a href="R16_08_full.docx" class="full-link">全文翻译</a>
+                    </div>
+                </div>
+                <div class="regulation-card">
+                    <h3>UN ECE R17.08</h3>
+                    <div class="full-name">关于座椅、座椅固定点和头枕方面批准车辆的统一规定</div>
+                    <div class="meta">
+                        <span>版本：08系列修正案</span>
+                        <span>车辆：M类</span>
+                    </div>
+                    <div class="links">
+                        <a href="R17_08.html" class="html-link">HTML介绍</a>
+                        <a href="R17_08.docx" class="docx-link">Word摘要</a>
+                        <a href="R17_08_full.docx" class="full-link">全文翻译</a>
+                    </div>
+                </div>
+                <div class="regulation-card">
+                    <h3>UN ECE R17.09</h3>
+                    <div class="full-name">关于座椅、座椅固定点和头枕方面批准车辆的统一规定</div>
+                    <div class="meta">
+                        <span>版本：09系列修正案</span>
+                        <span>车辆：M类</span>
+                    </div>
+                    <div class="links">
+                        <a href="R17_09.html" class="html-link">HTML介绍</a>
+                        <a href="R17_09.docx" class="docx-link">Word摘要</a>
+                        <a href="R17_09_full.docx" class="full-link">全文翻译</a>
+                    </div>
+                </div>
+                <div class="regulation-card">
+                    <h3>UN ECE R17.10</h3>
+                    <div class="full-name">关于座椅、座椅固定点和头枕方面批准车辆的统一规定</div>
+                    <div class="meta">
+                        <span>版本：10系列修正案</span>
+                        <span>车辆：M类</span>
+                    </div>
+                    <div class="links">
+                        <a href="R17_10.html" class="html-link">HTML介绍</a>
+                        <a href="R17_10.docx" class="docx-link">Word摘要</a>
+                        <a href="R17_10_full.docx" class="full-link">全文翻译</a>
+                    </div>
+                </div>
+                <div class="regulation-card">
+                    <h3>UN ECE R21.01</h3>
+                    <div class="full-name">关于车辆内部安装件认证的统一规定</div>
+                    <div class="meta">
+                        <span>版本：01系列修正案</span>
+                        <span>车辆：M1类</span>
+                    </div>
+                    <div class="links">
+                        <a href="R21_01.html" class="html-link">HTML介绍</a>
+                        <a href="R21_01.docx" class="docx-link">Word摘要</a>
+                        <a href="R21_01_full.docx" class="full-link">全文翻译</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>联合国欧洲经济委员会（UNECE）1958年协议框架下的汽车安全法规</p>
+            <p>生成日期：2026年5月17日 | 全文翻译版本</p>
+        </div>
+    </div>
+</body>
+</html>

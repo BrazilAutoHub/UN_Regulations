@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UN ECE R17.08 法规介绍</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+        
+        .header .subtitle {
+            font-size: 16px;
+            opacity: 0.9;
+            font-weight: 300;
+        }
+        
+        .badge {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+            margin-top: 15px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+        
+        .content {
+            padding: 35px 30px;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+        }
+        
+        .section-title {
+            font-size: 20px;
+            font-weight: 600;
+            color: #1e3c72;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 3px solid #667eea;
+            display: inline-block;
+        }
+        
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 15px;
+        }
+        
+        .info-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .info-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        
+        .info-card h3 {
+            font-size: 14px;
+            color: #667eea;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .info-card p {
+            font-size: 15px;
+            color: #333;
+            font-weight: 500;
+        }
+        
+        .highlight-box {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            padding: 25px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        
+        .highlight-box h3 {
+            color: #1e3c72;
+            font-size: 18px;
+            margin-bottom: 12px;
+        }
+        
+        .highlight-box ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .highlight-box li {
+            padding: 8px 0;
+            padding-left: 25px;
+            position: relative;
+        }
+        
+        .highlight-box li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #667eea;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        
+        .requirements {
+            background: #fff;
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 15px;
+        }
+        
+        .requirements h4 {
+            color: #1e3c72;
+            font-size: 16px;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .requirements h4:before {
+            content: "";
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            background: #667eea;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        
+        .requirements ul {
+            list-style: disc;
+            padding-left: 20px;
+            color: #555;
+        }
+        
+        .requirements li {
+            padding: 4px 0;
+            font-size: 14px;
+        }
+        
+        .footer {
+            background: #f8f9fa;
+            padding: 20px 30px;
+            text-align: center;
+            border-top: 1px solid #e9ecef;
+        }
+        
+        .footer p {
+            font-size: 13px;
+            color: #666;
+            margin: 5px 0;
+        }
+        
+        .tag {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            margin: 3px;
+        }
+        
+        @media (max-width: 600px) {
+            .header h1 {
+                font-size: 24px;
+            }
+            
+            .content {
+                padding: 25px 20px;
+            }
+            
+            .info-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>UN ECE R17.08</h1>
+            <div class="subtitle">联合国欧洲经济委员会第17号法规</div>
+            <div class="badge">08系列修正案</div>
+        </div>
+        
+        <div class="content">
+            <div class="section">
+                <h2 class="section-title">法规概述</h2>
+                <p style="color: #555; line-height: 1.8;">
+                    UN ECE R17.08 是联合国欧洲经济委员会制定的关于<strong>座椅、座椅固定点和头枕方面批准车辆</strong>的统一技术批准规定，属于1958年协议框架下的重要安全法规。该法规旨在确保车辆在正常使用和碰撞工况下的安全性能，是车辆被动安全的重要组成部分。
+                </p>
+            </div>
+            
+            <div class="section">
+                <h2 class="section-title">基本信息</h2>
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h3>法规全称</h3>
+                        <p>关于座椅、座椅固定点和头枕方面批准车辆的统一规定</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>英文名称</h3>
+                        <p>Seats, Their Anchorages and Head Restraints</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>适用车辆</h3>
+                        <p>M类、N类车辆</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>生效时间</h3>
+                        <p>2009年7月22日</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2 class="section-title">核心内容</h2>
+                <div class="highlight-box">
+                    <h3>涵盖的关键部件</h3>
+                    <ul>
+                        <li><strong>座椅</strong>：乘员乘坐的装置</li>
+                        <li><strong>座椅固定点</strong>：座椅与车身的连接点</li>
+                        <li><strong>头枕</strong>：限制头部后移的装置</li>
+                        <li><strong>座椅调节机构</strong>：调整座椅位置的装置</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2 class="section-title">技术要求</h2>
+                <div class="requirements">
+                    <h4>性能要求</h4>
+                    <ul>
+                        <li>座椅需具备足够的强度和刚度</li>
+                        <li>座椅固定点需承受规定载荷</li>
+                        <li>头枕高度和宽度需满足要求</li>
+                        <li>座椅靠背需具备能量吸收能力</li>
+                    </ul>
+                </div>
+                
+                <div class="requirements">
+                    <h4>测试方法</h4>
+                    <ul>
+                        <li>静态强度测试：施加规定载荷验证强度</li>
+                        <li>动态测试：模拟碰撞工况</li>
+                        <li>头枕尺寸测量：验证高度和宽度</li>
+                        <li>能量吸收测试：验证靠背吸能性能</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2 class="section-title">法规意义</h2>
+                <p style="color: #555; line-height: 1.8;">
+                    确保座椅在碰撞时保护乘员安全。该法规通过统一的技术标准，促进了国际贸易便利化，确保了相关系统的安全性能，有效降低了交通事故中的伤亡风险。
+                </p>
+                <div style="margin-top: 15px;">
+                    <span class="tag">被动安全</span>
+                    <span class="tag">型式批准</span>
+                    <span class="tag">E-mark认证</span>
+                    <span class="tag">国际互认</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>法规状态：现行有效 | 08系列修正案</p>
+        </div>
+    </div>
+</body>
+</html>
